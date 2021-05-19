@@ -1,10 +1,11 @@
 os: linux
+language: go
+install: skip
 arch:
   - amd64
   - ppc64le
 jobs:
   include:
     - dist: xenial
-      language: go
       go: 1.14
       script: go version
