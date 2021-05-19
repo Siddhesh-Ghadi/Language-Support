@@ -1,15 +1,16 @@
 os: linux
 arch:
-  #- amd64
-  #- s390x
+  - amd64
+  - s390x
   - ppc64le
-  #- arm64
-matrix:
+  - arm64
+  
+language: go
+go:
+  - 1.16
+  - 1.15
+  - 1.14
+jobs:
   include:
-    - language: go
-      go:
-      - stable
-    - sudo: true
-    -services: docker
-    - install: false
-        
+    - stage: Test
+    - script: fmt.Println("Hello world")
