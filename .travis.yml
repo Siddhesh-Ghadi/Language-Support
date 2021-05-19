@@ -4,13 +4,11 @@ arch:
   - s390x
   - ppc64le
   - arm64
-language: none
 matrix:
   include:
-    - language: c
-      c:
-        - 11
-    - compiler: gcc
-    - install: make get-deps
-    - script: prinf("%s",Hello world")
+    - language: go
+      go:
+      - stable
+    - sudo: false
+    
         
