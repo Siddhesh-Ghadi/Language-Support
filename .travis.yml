@@ -3,17 +3,27 @@ os: linux
 language: go
 jobs:
   include:
-    - &amd-bionic
+    - &amd
       arch: amd64
       dist: bionic
       script: go version
       go: 1.14
     
-    - <<: *amd-bionic
+    - <<: *amd
       go: 1.15
-    - <<: *amd-bionic
+    - <<: *amd
       go: 1.16
     
-    - &amd-bionic
+    - &amd
       dist: xenial
       go: 1.15
+    - &amd
+      dist: xenial
+      go: 1.16
+    
+   - &amd
+     dist: focal
+     go: 1.15
+   - &amd
+     dist: focal
+     go: 1.16
