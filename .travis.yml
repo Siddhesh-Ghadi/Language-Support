@@ -1,5 +1,7 @@
 os: linux
 lanugage: c
+c:
+  - 4
 compiler:
   - gcc
 script: gcc --version
