@@ -1,6 +1,5 @@
 language: android
 dist: focal
-install: ant
 android:
   components:
     - build-tools-26.0.2
