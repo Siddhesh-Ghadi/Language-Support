@@ -1,8 +1,12 @@
 os: linux
 arch:
   - amd64
+  - ppc64le
+  - arm64
+  - s390x
+  
 services: docker
 sudo: true
-language: bash
-script: echo "hello world"
+language: go
+script: go version
  
