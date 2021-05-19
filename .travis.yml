@@ -1,7 +1,11 @@
 os: linux
 lanugage: c
-c:
-  - 4
 compiler:
   - gcc
+addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - g++-4.9
 script: gcc --version
