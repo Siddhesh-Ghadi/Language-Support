@@ -13,3 +13,7 @@ jobs:
       go: 1.15
     - <<: *amd-bionic
       go: 1.16
+    
+    - &amd-bionic
+      dist: xenial
+      go: 1.15
