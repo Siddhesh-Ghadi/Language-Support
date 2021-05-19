@@ -4,6 +4,7 @@ arch:
   - s390x
   - ppc64le
   - arm64
+language: none
 matrix:
   include:
     - language: c
