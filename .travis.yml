@@ -3,7 +3,13 @@ os: linux
 language: go
 jobs:
   include:
-    - arch: amd64
+    - &amd-bionic
+      arch: amd64
       dist: bionic
       script: go version
       go: 1.14
+    
+    - <<: *amd-bionic
+      go: 1.15
+    - <<: *amd-bionic
+      go: 1.16
