@@ -20,10 +20,4 @@ jobs:
     - <<: *amd
       dist: xenial
       go: 1.16
-    
-   - <<: *amd
-     dist: focal
-     go: 1.15
-   - <<: *amd
-     dist: focal
-     go: 1.16
+
