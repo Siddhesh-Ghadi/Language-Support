@@ -1,6 +1,15 @@
+os: linux
+arch:
+  - amd64
+  - s390x
+  - ppc64le
+  - arm64
 matrix:
   include:
     - language: c
-      c: 11
+      c:
+        - 11
+    - compiler: gcc
+    - install: make get-deps
     - script: prinf("%s",Hello world")
         
