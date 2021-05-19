@@ -1,3 +1,6 @@
+language: c
+arch: ppc64le
+
 matrix:
   include:
     # works on Precise and Trusty
