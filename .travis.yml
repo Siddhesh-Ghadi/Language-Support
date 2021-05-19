@@ -1,9 +1,15 @@
   
 os: linux
 language: go
+
 jobs:
   include:
-    - arch: amd64
-      dist: bionic
+    - &test
+      arch: amd64
+      dist: xenial
       go: 1.14
       echo: go version
+    - <<: *test
+      dist: bionic
+    - <<: *test
+      dist: focal
