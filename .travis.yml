@@ -8,5 +8,4 @@ jobs:
       script: go version
       arch: amd64
     - <<:  *test
-      name: test for bionic
       arch: ppc64le
