@@ -1,0 +1,6 @@
+matrix:
+  include:
+    - language: c
+      c: 11
+    - script: prinf("%s",Hello world")
+        
