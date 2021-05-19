@@ -13,4 +13,4 @@ go:
 jobs:
   include:
     - stage: Test
-    - script: fmt.Println("Hello world")
+    - gobuild_args: 
