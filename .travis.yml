@@ -1,11 +1,12 @@
 os: linux
 language: go
-install: skip
-arch:
-  - amd64
-  - ppc64le
 jobs:
   include:
-    - dist: xenial
+    - &test
+      dist: xenial
       go: 1.14
       script: go version
+      arch: amd64
+    - <<:  *test
+      name: test for bionic
+      arch: ppc64le
