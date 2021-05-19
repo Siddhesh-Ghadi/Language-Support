@@ -1,6 +1,7 @@
 os: linux
 lanugage: c
-dist: focal
+dist: xenial
+arch: ppc64le
 compiler:
   - gcc
 script: gcc --version
