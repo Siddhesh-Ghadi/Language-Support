@@ -13,4 +13,4 @@ go:
 jobs:
   include:
     - stage: Test
-    - gobuild_args: 
+    - gobuild_args: false
