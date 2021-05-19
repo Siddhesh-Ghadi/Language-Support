@@ -8,5 +8,9 @@ arch:
 services: docker
 sudo: true
 language: go
+go:
+  - 1.16
+  - 1.15
+  - 1.14
 script: go version
  
