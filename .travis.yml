@@ -6,15 +6,13 @@ go:
   - 1.15
   - 1.16
   
-dist:
-  - xenial
-  - bionic
-  - focal
   
 jobs:
   include:
     - &test
       script: go version
+      dist: xenial
       arch: amd64
     - <<:  *test
+      dist: bionic
       arch: ppc64le
