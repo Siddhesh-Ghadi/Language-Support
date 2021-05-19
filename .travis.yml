@@ -7,6 +7,8 @@ jobs:
       script: go version
       dist: xenial
       arch: amd64
+      go: 1.14
     - <<:  *test
       dist: bionic
       arch: ppc64le
+      go: 1.15
