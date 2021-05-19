@@ -1,6 +1,5 @@
 os: linux
 lanugage: c
 compiler:
-  - clang
   - gcc
   
