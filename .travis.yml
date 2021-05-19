@@ -2,6 +2,7 @@ os: linux
 arch:
   - amd64
 services: docker
+sudo: true
 language: bash
 script: echo "hello world"
  
