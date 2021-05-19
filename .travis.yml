@@ -3,10 +3,4 @@ lanugage: c
 dist: focal
 compiler:
   - gcc
-addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - g++-5
 script: gcc --version
