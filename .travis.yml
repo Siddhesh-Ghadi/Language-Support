@@ -1,16 +1,6 @@
 os: linux
 arch:
   - amd64
-  - s390x
-  - ppc64le
-  - arm64
+language: bash
+script: echo "hello world"
   
-language: go
-go:
-  - 1.16
-  - 1.15
-  - 1.14
-jobs:
-  include:
-    - stage: Test
-    - script: go version
