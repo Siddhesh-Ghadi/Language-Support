@@ -10,5 +10,5 @@ matrix:
       go:
       - stable
     - sudo: false
-    
+    - install: false
         
