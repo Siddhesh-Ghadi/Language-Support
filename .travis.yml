@@ -1,6 +1,6 @@
 os: linux
 lanugage: c
-dist: bionic
+dist: focal
 compiler:
   - gcc
 addons:
