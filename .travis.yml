@@ -14,16 +14,16 @@ jobs:
     - <<: *amd
       go: 1.16
     
-    - &amd
+    - <<: *amd
       dist: xenial
       go: 1.15
-    - &amd
+    - <<: *amd
       dist: xenial
       go: 1.16
     
-   - &amd
+   - <<: *amd
      dist: focal
      go: 1.15
-   - &amd
+   - <<: *amd
      dist: focal
      go: 1.16
