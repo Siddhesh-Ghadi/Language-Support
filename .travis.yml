@@ -16,6 +16,8 @@ jobs:
     
     - <<: *amd
       dist: xenial
+    - <<: *amd
+      dist: xenial
       go: 1.15
     - <<: *amd
       dist: xenial
