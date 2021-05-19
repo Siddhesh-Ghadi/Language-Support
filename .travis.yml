@@ -1,6 +1,6 @@
 os: linux
 lanugage: c
-dist: xenial
+dist: bionic
 arch: ppc64le
 compiler:
   - gcc
