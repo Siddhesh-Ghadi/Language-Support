@@ -9,4 +9,4 @@ d:
   - ldc
 
 script:
-  - DC --version
+  - $DC --version
