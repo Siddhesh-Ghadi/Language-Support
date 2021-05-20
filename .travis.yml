@@ -1,12 +1,9 @@
 dist: xenial
-language: d
+language: dart
 arch: 
   - amd64
   - ppc64le
-d:
-  - dmd
-  - gdc
-  - ldc
-
-script:
-  - $DC --version
+dart:
+  - stable
+  - beta
+  - dev
