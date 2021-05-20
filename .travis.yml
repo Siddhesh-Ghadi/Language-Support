@@ -3,4 +3,4 @@ arch:
   - amd64
   - ppc64le
 language: groovy
-script: println GroovySystem.version
+script: javac
