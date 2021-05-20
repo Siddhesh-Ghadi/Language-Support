@@ -6,4 +6,7 @@ arch:
 crystal:
   - latest
   - nightly
-  - 0.35.1
+
+script:
+  - crystal spec
+  - crystal tool format --check
