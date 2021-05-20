@@ -1,12 +1,12 @@
 dist: xenial
-language: crystal
+language: d
 arch: 
   - amd64
   - ppc64le
-crystal:
-  - latest
-  - nightly
+d:
+  - dmd
+  - gdc
+  - ldc
 
 script:
-  - crystal spec
-  - crystal tool format --check
+  - echo d
