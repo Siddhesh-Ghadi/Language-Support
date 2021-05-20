@@ -24,4 +24,4 @@ php:
 jobs:
   include:
     - distro: bionic
-    - script: arch
+      script: arch
