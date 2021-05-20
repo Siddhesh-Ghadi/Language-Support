@@ -4,14 +4,8 @@ arch:
   
 language: closure
 
-distro: focal
-
-closure:
-  - 1.0
-  - 1.1
-  - 1.2
-  - 1.3
-  - 1.4
-  - 1.5
-
-script: closure --version
+jobs:
+  include:
+    - distro: bionic
+    - distro: xenial
+    - distro: focal
