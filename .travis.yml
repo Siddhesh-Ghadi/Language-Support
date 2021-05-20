@@ -7,5 +7,6 @@ language: closure
 jobs:
   include:
     - distro: bionic
-    - distro: xenial
+      script: arch
     - distro: focal
+      script: arch
