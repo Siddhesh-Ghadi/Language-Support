@@ -1,7 +1,6 @@
-dist: xenial
+dist: bionic
 language: dart
 arch: 
-  - amd64
   - ppc64le
 dart:
   - stable
