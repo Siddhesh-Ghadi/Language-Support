@@ -1,4 +1,4 @@
-dist: xenial
+dist: trusty
 arch: 
   - amd64
   - ppc64le
@@ -7,3 +7,4 @@ r:
   - oldrel
   - release
   - devel
+script: R.Version
