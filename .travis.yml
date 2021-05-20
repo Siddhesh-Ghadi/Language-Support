@@ -5,3 +5,5 @@ arch:
   - ppc64le
 elixir: 
   - 1.5
+script:
+  - elixir --version
