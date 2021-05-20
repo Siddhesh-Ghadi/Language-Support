@@ -3,6 +3,4 @@ language: dart
 arch: 
   - ppc64le
 dart:
-  - stable
-  - beta
-  - dev
+  - "1.15.0"
