@@ -9,4 +9,4 @@ d:
   - ldc
 
 script:
-  - echo d
+  - DC --version
