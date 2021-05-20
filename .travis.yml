@@ -3,4 +3,4 @@ language: elixir
 arch: 
   - amd64
   - ppc64le
-elixir: '1.5.2'
+elixir: stable
