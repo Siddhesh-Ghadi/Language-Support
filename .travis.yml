@@ -6,5 +6,5 @@ language: closure
 
 distro: focal
 
-php:
+closure:
   - v20210505
