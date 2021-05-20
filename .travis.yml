@@ -1,7 +1,7 @@
 dist: xenial
 language: crystal
 arch: 
-  - amd
+  - amd64
   - ppc64le
 crystal:
   - latest
