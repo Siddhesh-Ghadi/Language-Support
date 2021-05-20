@@ -4,6 +4,8 @@ arch:
   
 language: php
 
+distro: focal
+
 php:
   - 4.4
   - 5.0
@@ -21,7 +23,4 @@ php:
   - 8.0
   - nightly
 
-jobs:
-  include:
-    - distro: bionic
-      script: arch
+
