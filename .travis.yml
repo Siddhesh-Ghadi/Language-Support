@@ -3,5 +3,6 @@ arch:
   - amd64
   - ppc64le
 os: linux
-language: julia
-script: julia
+language: matlab
+matlab:
+  - latest
