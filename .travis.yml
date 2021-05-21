@@ -3,6 +3,4 @@ arch:
   - amd64
   - ppc64le
 os: linux
-language: csharp
-mono: none
-dotnet: 2.1.502
+language: objective-c
