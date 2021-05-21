@@ -3,9 +3,8 @@ arch:
   - amd64
   - ppc64le
 os: linux
-language: perl
-perl:
-  - "5.30"
-  - "5.28"
-  - "5.26"
-script: perl --version
+language: perl6
+perl6:
+  - latest
+  - '2017.05'
+  - '2017.04'
