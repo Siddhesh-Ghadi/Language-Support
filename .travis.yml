@@ -2,5 +2,5 @@ dist: xenial
 arch: 
   - amd64
   - ppc64le
-os: osx
-language: objective-c
+os: linux
+language: groovy
