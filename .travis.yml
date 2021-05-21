@@ -4,3 +4,4 @@ arch:
   - ppc64le
 os: linux
 language: julia
+script: julia
