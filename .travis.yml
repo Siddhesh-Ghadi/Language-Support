@@ -3,4 +3,4 @@ arch:
   - amd64
   - ppc64le
 language: smalltalk
-script: smalltalk --version
+script: smalltalkci --version
