@@ -2,5 +2,5 @@ dist: xenial
 arch: 
   - amd64
   - ppc64le
-language: smalltalk
-script: smalltalkci --version
+os: osx
+language: swift
