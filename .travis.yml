@@ -4,3 +4,4 @@ arch:
   - ppc64le
 os: linux
 language: nix
+nix: 2.3.6
