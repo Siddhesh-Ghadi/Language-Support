@@ -4,8 +4,3 @@ arch:
   - ppc64le
 os: linux
 language: haskell
-ghc:
-  - "7.10"
-  - "7.8"
-  - "7.6"
-  - "8.4.1"
