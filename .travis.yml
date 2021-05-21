@@ -2,6 +2,5 @@ dist: xenial
 arch: 
   - amd64
   - ppc64le
-os: osx
-osx_image: xcode11.2
-language: swift
+os: linux
+language: node_js
