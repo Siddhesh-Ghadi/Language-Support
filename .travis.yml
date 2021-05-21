@@ -3,5 +3,6 @@ arch:
   - amd64
   - ppc64le
 os: linux
-install: lein protobuf install
-language: closure
+language: csharp
+mono: none
+dotnet: 2.1.502
